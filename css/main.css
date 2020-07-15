@@ -19,17 +19,21 @@ div.headIn {
     display: block;
     color: rgb(255, 255, 255);
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     float: left;
 }
 
+div.headIn a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 li {
     display: inline;
     float: right;
 }
-
-
 
 li a {
     display: block;
