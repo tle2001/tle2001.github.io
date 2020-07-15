@@ -2,9 +2,9 @@
 layout: default
 title: Project
 ---
-	<ul class="posts">
+	<hr class="posts">
 
 	  {% for post in site.posts %}
 	    <p><span>{{ post.date | date_to_string }}</span>: <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></p>
 	  {% endfor %}
-	</ul>
+	</hr>
