@@ -8,6 +8,13 @@ ul {
     overflow: hidden;
     background-color: #696969;
 }
+hr {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
 div.headIn {
     display: block;
     color: rgb(255, 255, 255);
@@ -21,6 +28,8 @@ li {
     display: inline;
     float: right;
 }
+
+
 
 li a {
     display: block;
