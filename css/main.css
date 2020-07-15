@@ -17,10 +17,6 @@ div.headIn {
     float: left;
 }
 
-li {
-    float: right;
-}
-
 li a {
     display: block;
     color: rgb(255, 255, 255);
