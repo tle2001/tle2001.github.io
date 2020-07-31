@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First Notebook on Google Colab with Sentiment Analyzing
+title: First Notebook on Google Colab with Text and Sentiment Analyzing
 date: 2020-07-31
 ---
 In the first two weeks of July, I have completed my research in text analyzing by prototyping the American Data Scientist Job Market on Kaggle and tried to create one reinforcement ML model to analyzing text to regconize the sentiment of the comment of the dataset of MyAnimeList.
