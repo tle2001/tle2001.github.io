@@ -23,14 +23,14 @@ The main problem in the second notebook is my model is not precise enough since 
 
 ## 3. The problem of the 'sigmoid' layer
 The sigmoid layer of the model was not work properly. There are two problems:
-+ The input data is not clean.
-+ The sigmoid layer is not too good with 3 or more categorize analyzing when it returns negative loss.
++The input data is not clean.
++The sigmoid layer is not too good with 3 or more categorize analyzing when it returns negative loss.
 
 ## 4. The process of text analyzing
 There are some approachs used from my works above. In the first notebook, I used the approachs with the nltk library. The code could be found in the notebook. In the second notebook, I used the Tensorflow library to analyzing the comment section. Both of the notebooks have the same process of text analyzing:
-+ First, tokenize the whole text.
-+ Second, lemmertize with the whole token we created.
-+ Third, remove all the special charracters.
++First, tokenize the whole text.
++Second, lemmertize with the whole token we created.
++Third, remove all the special charracters.
 
 Because of different goals of two datasets so we have two ways to use the token that we had. In the first notebook, the token will be used for searching the patterns to answer our research questions. In the second notebook, we have to create the word vectors, then embedding the word vectors by change every vector to the same size for training. 
 
